@@ -23,7 +23,7 @@ public class Application {
                 Application.advertisement=advertisement;
                 botService.carFinderBot.writeMessage(advertisement);
             }else {
-                if(!Application.advertisement.equals(advertisement)){
+                if(Application.advertisement.equals(advertisement)){
                     Application.advertisement=advertisement;
                     botService.carFinderBot.writeMessage(advertisement);
                 }
